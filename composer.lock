@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0d62e8378fec4651edaa6a85e78e60c",
+    "content-hash": "690a83547b31e61acab47f8a826b8f05",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1006,16 +1006,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.53.0",
+            "version": "v8.53.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "4b2e3e7317da82dd9f5b88d477abd93444748b43"
+                "reference": "5df423c2790f32b26baee90518bb659572aa404f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/4b2e3e7317da82dd9f5b88d477abd93444748b43",
-                "reference": "4b2e3e7317da82dd9f5b88d477abd93444748b43",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5df423c2790f32b26baee90518bb659572aa404f",
+                "reference": "5df423c2790f32b26baee90518bb659572aa404f",
                 "shasum": ""
             },
             "require": {
@@ -1170,7 +1170,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-08-03T14:36:33+00:00"
+            "time": "2021-08-05T14:04:08+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -5272,6 +5272,64 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "time": "2021-03-09T10:59:23+00:00"
+        },
+        {
+            "name": "webpatser/laravel-uuid",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webpatser/laravel-uuid.git",
+                "reference": "df92ebbc5ea71ee9e0d6e2861178be42ef7eb330"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webpatser/laravel-uuid/zipball/df92ebbc5ea71ee9e0d6e2861178be42ef7eb330",
+                "reference": "df92ebbc5ea71ee9e0d6e2861178be42ef7eb330",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "fakerphp/faker": "^1.9.1",
+                "phpunit/phpunit": "^9.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Webpatser\\Uuid\\UuidServiceProvider"
+                    ],
+                    "aliases": {
+                        "Uuid": "Webpatser\\Uuid\\Uuid"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webpatser\\Uuid\\": "src/Webpatser/Uuid/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Kempen",
+                    "email": "christoph@downsized.nl"
+                }
+            ],
+            "description": "Laravel package to generate and to validate a universally unique identifier (UUID) according to the RFC 4122 standard. Support for version 1, 3, 4 and 5 UUIDs are built-in.",
+            "homepage": "https://github.com/webpatser/laravel-uuid",
+            "keywords": [
+                "UUID RFC4122"
+            ],
+            "support": {
+                "issues": "https://github.com/webpatser/laravel-uuid/issues",
+                "source": "https://github.com/webpatser/laravel-uuid"
+            },
+            "time": "2021-03-09T07:19:24+00:00"
         }
     ],
     "packages-dev": [
